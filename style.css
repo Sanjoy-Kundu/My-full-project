@@ -65,7 +65,7 @@ width: 300px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color:#7370D8;
+	background-color: #655971;
 	width: 100%;
 	height: 92px;
 	padding: 18px;
@@ -105,7 +105,7 @@ font-size: 30px;
 background-image: linear-gradient(to right, rgba(172, 184, 127, 0.912), rgba(157, 255, 0, 0.549));
 }
 .banner-heading {
-	border: 1px solid;
+
 	height: 100%;
 	width: 100%;
 	padding: 50px 0px;
@@ -142,10 +142,10 @@ background-image: linear-gradient(to right, rgba(172, 184, 127, 0.912), rgba(157
 	background-color: #8AB73C;
 }
 .blog-1 {
-	background-color: #FFFFFF;
+	background-color: #9BB56E;
 	height: 700px;
 	width: 100%;
-	border: 1px solid black;
+	border: 1px solid #9BB56E;
 }
 .blog-1 .heading {
 	height: 300px;
@@ -160,7 +160,7 @@ background-image: linear-gradient(to right, rgba(172, 184, 127, 0.912), rgba(157
 .blog-1 .heading .center-heading  h1 {
 	text-align: center;
 	font-size: 30px;
-	color: #733d3d;
+	color: #602424;
 	font-weight: 900;
 	margin-top: 33px;
 }
@@ -168,14 +168,14 @@ background-image: linear-gradient(to right, rgba(172, 184, 127, 0.912), rgba(157
 	font-size: 25px;
 	text-align: center;
 	line-height: 26px;
-	color: #A78888;
+	color: #700404;
 }
 .blog-1-card {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	padding: 3px;
-	background: #6f626245;
+	background: #dddcdc45;
 	height: 376px;
 }
 .blog-1-card-1 {
@@ -212,4 +212,65 @@ color: #b5aeae;
 	width: 93%;
 	line-height: 19px;
 	font-size: 18px;
+}
+/*about us  part*/
+.about-us {
+	height: 594px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	background-color: #919cd1;
+}
+.about-us-left-content {
+	width: 60%;
+	position: relative;
+	height: 300px;
+	top: 156px;
+	background-color: #F0F3FD;
+}
+.about-us-right-content {
+	width: 40%;
+	margin-top: 108px;
+	border: 1px solid aliceblue;
+	background: #F0F3FD;
+}
+.about-us-right-content img{
+	height: 409px;
+	width: 444px;
+	position: relative;
+	top: -38px;
+	left: 27px;
+}
+.about-us h2 {
+	text-align: center;
+	font-size: 32px;
+	padding-top: 17px;
+	color: #6e7ece;
+}
+.about-us p {
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 14px;
+	color: #60647c;
+}
+.about-us a {
+	text-decoration: none;
+	border: 1px solid #310be8;
+	padding: 16px 35px;
+	margin-left: 14px;
+	background-color: #7370D8;
+	color: #fff;
+	word-spacing: 8px;
+	font-size: 21px;
+	transition: all 1s;
+	border-radius: 15px;
+}
+.about-us a:hover {
+	background-color: #ffffff;
+	color: #310be8;
+	border: 1px solid #310be8;
+
 }
